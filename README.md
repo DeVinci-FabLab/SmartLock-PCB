@@ -2,6 +2,42 @@
 
 
 
+\# SmartLock-PCB
+
+
+
+PCB design for the SmartLock project — an electronically controlled lock system developed at the DeVinci FabLab.
+
+
+
+Designed with \*\*KiCad\*\*.
+
+
+
+\---
+
+
+
+\## Project Structure
+
+
+
+SmartLock-PCB/
+
+├── SmartLock.kicad\_pro       # KiCad project file
+
+├── SmartLock.kicad\_sch       # Schematic
+
+├── SmartLock.kicad\_pcb       # PCB layout
+
+├── gerbers/                  # Fabrication files (Gerber + drill)
+
+├── bom/                      # Bill of Materials
+
+└── README.md
+
+
+
 \## Description
 
 
@@ -32,7 +68,7 @@ This board handles the control logic for the SmartLock system. It interfaces wit
 
 2\. Clone this repository:
 
-```bash
+```
 
 &#x20;  git clone https://github.com/DeVinci-FabLab/SmartLock-PCB.git
 
