@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Resistors_smd_locad")(type "KiCad")(uri "${KIPRJMOD}/Resistors_smd_locad.pretty")(options "")(descr ""))
+  (lib (name "Capacitor_SMD_local")(type "KiCad")(uri "${KIPRJMOD}/Capacitor_SMD_local.pretty")(options "")(descr ""))
+)

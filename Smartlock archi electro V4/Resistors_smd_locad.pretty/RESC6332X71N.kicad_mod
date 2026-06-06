@@ -1,0 +1,111 @@
+(footprint "RESC6332X71N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "RESC6332X71N")
+	(tags "Resistor")
+	(property "Reference" "R**"
+		(at -3.4544 -2.54 0)
+		(layer "F.SilkS")
+		(uuid "086fbd7c-d4eb-4914-83e3-4425687e9d86")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "RESC6332X71N"
+		(at -3.4544 -2.54 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6e11200e-6382-4ff0-b71f-c0722224eff6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "45d607c7-a0f3-41b5-9f00-977af45af208")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a5067db-871b-4308-b434-e363a3ed90ca")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.032 1.6764)
+		(end 2.032 1.6764)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3f2fdfd2-00ac-4066-ba9b-1f37e5d53623")
+	)
+	(fp_line
+		(start 2.032 -1.6764)
+		(end -2.032 -1.6764)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a2797294-d4d2-478f-91b4-85c771de821f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -3.4544 -2.54 0)
+		(layer "F.Fab")
+		(uuid "93a9494b-c081-4c82-996a-7a7dac4e09e1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.9718 0)
+		(size 1.1938 3.3528)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1889697e-3b2e-491b-b834-bb890e387bb5")
+	)
+	(pad "2" smd rect
+		(at 2.9718 0)
+		(size 1.1938 3.3528)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6a01f22f-9f08-456d-bb43-f46f9d76254d")
+	)
+	(embedded_fonts no)
+	(model "WSL2512R3300FEA.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

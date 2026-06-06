@@ -1,0 +1,17 @@
+{
+  "jobs": [],
+  "meta": {
+    "version": 1
+  },
+  "outputs": [
+    {
+      "description": "",
+      "id": "3403ee42-5878-4052-a193-dad0f41a2da8",
+      "only": [],
+      "settings": {
+        "output_path": "Circuit_NFC_Rasp_Sole"
+      },
+      "type": "folder"
+    }
+  ]
+}
